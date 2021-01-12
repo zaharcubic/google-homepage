@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li {
+    display: inline;
+}
+
+#google-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#action-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
