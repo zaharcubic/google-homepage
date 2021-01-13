@@ -11,9 +11,9 @@
 <body>
     <nav>
         <ul>
-            <li><a href="https://www.google.com/gmail/about/">Gmail</a></li>
-            <li><a href="https://www.google.ro/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-            <li><button>Sign in</button></li>
+            <li><a href="https://www.google.com/gmail/about/" id="mail">Gmail</a></li>
+            <li><a href="https://www.google.ro/imghp?hl=en&tab=wi&ogbl" id="images">Images</a></li>
+            <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ" id="signin">Sign in</a></li>
         </ul>
     </nav>
     <main>
@@ -25,11 +25,14 @@
                 <input type="text" name="searchbar" id="searchbar">
         </div>
         <div id="action-buttons">
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
+            <input type="submit" id="search" value="Google Search">
+            <input type="submit" id="lucky" value="I'm Feeling Lucky">
         </div>
         </form>
     </main>
+    <div id="translations">
+        <p>Google offered in: <a href="https://www.google.com/setprefs?sig=0_o3JTsU0ZV9inJRtOJK3tcQvPRHk%3D&hl=ro&source=homepage&sa=X&ved=0ahUKEwjw-9C00ZjuAhUOCxoKHYZrA9YQ2ZgBCA4">Romana</a> <a href="https://www.google.com/setprefs?sig=0_o3JTsU0ZV9inJRtOJK3tcQvPRHk%3D&hl=hu&source=homepage&sa=X&ved=0ahUKEwjw-9C00ZjuAhUOCxoKHYZrA9YQ2ZgBCA8">Magyar</a>            <a href="https://www.google.com/setprefs?sig=0_o3JTsU0ZV9inJRtOJK3tcQvPRHk%3D&hl=de&source=homepage&sa=X&ved=0ahUKEwjw-9C00ZjuAhUOCxoKHYZrA9YQ2ZgBCBA">Deutsch</a></p>
+    </div>
 </body>
 
 </html>

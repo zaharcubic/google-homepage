@@ -1,16 +1,44 @@
+html {
+    font-size: small;
+}
+
 nav {
     display: flex;
     flex-direction: row-reverse;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
 }
 
 li {
     display: inline;
+    text-decoration: none;
+}
+
+#signin {
+    display: inline-block;
+    padding: 0 12px;
+    border: 1px solid #4285f4;
+    background: #4387fd;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 #google-logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 47px;
+}
+
+#searchbar {
+    width: 534px;
+    height: 34px;
+    border-radius: 30px;
 }
 
 #search-bar {
@@ -25,4 +53,28 @@ li {
     align-items: center;
     justify-content: center;
     margin: 1em;
+}
+
+#search #lucky {
+    background-color: #dadce0;
+}
+
+#translations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    font-family: arial, sans-serif;
 }
